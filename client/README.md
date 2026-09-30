@@ -1,16 +1,22 @@
-# React + Vite
+# Lazy Suzy Bengaluru — private website concept
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Responsive React + Vite concept with an editorial landing page at `/` and a searchable photo-transcribed menu at `/shop`.
 
-Currently, two official plugins are available:
+## Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```sh
+npm install
+npm run dev
+```
 
-## React Compiler
+Check production output with `npm run build` and `npm run lint`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Interactions
 
-## Expanding the ESLint configuration
+- Auto-rotating featured menu display with pause, direct selection, and reduced-motion support.
+- Scroll-based GSAP reveal, food parallax, and café-photo crossfade.
+- Continuous review cards that pause on hover, focus, and touch.
+- Search, category selection, and verified dietary filters on `/shop`.
+- External directions, call, Instagram, and Dineout reservation links. No checkout is implied.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The concept is **not** an official café website. Prices and availability need owner confirmation. See [the source log](docs/source-log.md) for every source, provisional image, unresolved menu gap, and proposed next phase.
